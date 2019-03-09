@@ -12,7 +12,7 @@
   border: 2px solid #282c34;
 }
 
-.Button--primary:hover {
+.Button--primary:hover:not(.Button--disabled) {
   box-shadow: 2px 2px 0 #282c34;
 }
 
@@ -21,7 +21,7 @@
   border: 2px solid #fff;
 }
 
-.Button--blank:hover {
+.Button--blank:hover:not(.Button--disabled) {
   box-shadow: 2px 2px 0 #fff;
 }
 
@@ -30,6 +30,11 @@
   border: 2px solid #e64d3d;
 }
 
-.Button--error:hover {
+.Button--error:hover:not(.Button--disabled) {
   box-shadow: 2px 2px 0 #e64d3d;
+}
+
+.Button--disabled {
+  opacity: .25;
+  cursor: none;
 }

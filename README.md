@@ -1,6 +1,9 @@
 # DevMT Members :notebook_with_decorative_cover:
 Simple React + Redux demo to be used on my presentation about it.
 
+## Deploy
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 ## Up & Running
 - Clone this repo
 - Install dependencies with `yarn install`

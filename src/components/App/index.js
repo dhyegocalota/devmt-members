@@ -89,7 +89,12 @@ class App extends PureComponent {
           </Button>
         </header>
         <section className="App-section App-content">
-          <MembersList error={error} loading={loading} members={members} />
+          <MembersList
+            error={error}
+            loading={loading}
+            members={members}
+            fetchMembers={this.fetchMembers}
+          />
         </section>
       </div>
     );

@@ -11,15 +11,19 @@ export default class MembersList extends PureComponent {
     members: [],
   };
 
+  componentDidMount() {
+    this.props.fetchMembers();
+  }
+
   render() {
-    const { loading, error, members } = this.props;
+    const { loading, error, members, fetchMembers } = this.props;
 
     if (loading) {
       return <Loading />;
     }
 
     if (error) {
-      return <Error reason={error} onRetry={this.fetchMembers} />;
+      return <Error reason={error} onRetry={fetchMembers} />;
     }
 
     return (

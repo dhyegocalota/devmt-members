@@ -23,7 +23,7 @@ Since Slack Web API doesn't seem to support CORS, I actually had to create a tin
 So you got two options:
 
 - Use the online [deployed version](http://devmt-members-api.herokuapp.com/)
-- OR deploy the API by yourself
+- OR [deploy the API by yourself](https://github.com/dhyegocalota/devmt-members-api/tree/manual#deploy)
 
 ## Author
 Dhyego Calota <dhyegofernando@gmail.com>

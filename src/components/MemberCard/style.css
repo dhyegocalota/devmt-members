@@ -1,0 +1,49 @@
+.Member {
+  margin: .75em;
+  max-width: 250px;
+  background-color: #fff;
+  box-shadow: 3px 3px 0 #cacaca;
+}
+
+.Member-avatar {
+  width: 250px;
+  max-height: 250px;
+}
+
+.Member-content {
+  padding: .75em;
+}
+
+.Member-emoji {
+  margin-left: .25em;
+}
+
+.Member-displayname {
+  margin: 0;
+}
+
+.Member-realname {
+  margin: .2em 0;
+  font-family: 'Lobster', cursive;
+  font-size: 1.75em;
+}
+
+.Member-badges {
+  margin: 1.25em 0;
+}
+
+.Member-badge {
+  display: inline-block;
+  padding: .35em .75em;
+  font-size: .75em;
+  background-color: #ddd;
+  text-transform: uppercase;
+}
+
+.Member-badge--admin {
+  background-color: #ffdbd8;
+}
+
+.Member-status {
+  font-style: italic;
+}

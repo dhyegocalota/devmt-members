@@ -15,5 +15,8 @@ So you got two options:
 - Use the online [deployed version](http://devmt-members-api.herokuapp.com/)
 - OR deploy the API by yourself
 
+## Author
+Dhyego Calota <dhyegofernando@gmail.com>
+
 ## License
 MIT

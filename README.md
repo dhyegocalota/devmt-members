@@ -10,6 +10,13 @@ Simple React + Redux demo to be used on my presentation about it.
 - Create .env file with `cp .env.sample .env` and configure the settings there (see the [section below](#API))
 - Start the app with `yarn start`
 
+## Branches & Versions
+We got three different versions on this project that are separated by their branch:
+
+- [master](https://github.com/dhyegocalota/devmt-members/tree/master): Hard coded data flow
+- [manual](https://github.com/dhyegocalota/devmt-members/tree/manual): API data flow with manual work inside of the components
+- [redux](https://github.com/dhyegocalota/devmt-members/tree/redux): API data flow with manual Redux implementation
+
 ## API
 Since Slack Web API doesn't seem to support CORS, I actually had to create a tiny [back-end wrapper server](https://github.com/dhyegocalota/devmt-members-api) to support it.
 

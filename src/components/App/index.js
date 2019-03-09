@@ -39,7 +39,12 @@ class App extends PureComponent {
       <div className="App">
         <header className="App-section App-header">
           <img src={logo} className="App-logo" alt="DevMT" />
-          <Button className="App-refreshButton" onClick={this.fetchMembers} variant="blank">
+          <Button
+            className="App-refreshButton"
+            onClick={this.fetchMembers}
+            variant="blank"
+            disabled={loading}
+          >
             Refresh
           </Button>
         </header>

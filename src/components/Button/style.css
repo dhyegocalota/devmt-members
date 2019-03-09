@@ -1,0 +1,35 @@
+.Button {
+  display: inline-block;
+  padding: .3em .8em;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.25em;
+}
+
+.Button--primary {
+  color: #282c34;
+  border: 2px solid #282c34;
+}
+
+.Button--primary:hover {
+  box-shadow: 2px 2px 0 #282c34;
+}
+
+.Button--blank {
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.Button--blank:hover {
+  box-shadow: 2px 2px 0 #fff;
+}
+
+.Button--error {
+  color: #e64d3d;
+  border: 2px solid #e64d3d;
+}
+
+.Button--error:hover {
+  box-shadow: 2px 2px 0 #e64d3d;
+}

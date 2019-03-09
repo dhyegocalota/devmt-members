@@ -1,43 +1,14 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import Loading from '../Loading';
 import Error from '../Error';
 import MemberCard from '../MemberCard';
 import './style.css';
 
-export default class MembersList extends Component {
+export default class MembersList extends PureComponent {
   static defaultProps = {
     loading: false,
     error: false,
-    members: [
-      {
-        id: 32,
-        color: '9f69e7',
-        is_admin: true,
-        profile: {
-          status_text: 'Print is dead',
-          status_emoji: ':books:',
-          real_name_normalized: 'Egon Spengler',
-          display_name_normalized: 'spengler',
-          image_192: 'https://avatars1.githubusercontent.com/u/5576007?s=460&v=4',
-        },
-      },
-      {
-        id: 34,
-        color: '9f69e7',
-        is_admin: true,
-        profile: {
-          status_text: 'Print is dead',
-          status_emoji: ':books:',
-          real_name_normalized: 'Egon Spengler',
-          display_name_normalized: 'spengler',
-          image_192: 'https://avatars1.githubusercontent.com/u/5576007?s=460&v=4',
-        },
-      },
-    ],
-  };
-
-  fetchMembers = () => {
-    alert('Retrying...');
+    members: [],
   };
 
   render() {

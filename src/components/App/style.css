@@ -6,8 +6,9 @@
 }
 
 .App-logo {
+  display: inline-block;
   max-height: 100px;
-  pointer-events: none;
+  margin: .35em;
 }
 
 .App-section {
@@ -20,7 +21,6 @@
   background-color: #282c34;
   display: flex;
   flex: 1;
-  max-height: 125px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -34,4 +34,8 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.App-refreshButton {
+  display: inline-block;
 }

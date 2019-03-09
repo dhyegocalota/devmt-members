@@ -1,5 +1,6 @@
 .Member {
   margin: .75em;
+  height: 430px;
   max-width: 250px;
   background-color: #fff;
   box-shadow: 3px 3px 0 #cacaca;
@@ -16,6 +17,14 @@
 
 .Member-emoji {
   margin-left: .25em;
+}
+
+.Member-displayname,
+.Member-realname,
+.Member-status {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .Member-displayname {

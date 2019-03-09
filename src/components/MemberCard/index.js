@@ -6,8 +6,8 @@ export default class MemberCard extends Component {
   render() {
     const {
       member: {
+        color,
         is_admin,
-        is_bot,
         profile: { real_name_normalized, image_192, status_emoji, status_text },
       },
     } = this.props;
@@ -25,11 +25,9 @@ export default class MemberCard extends Component {
           </p>
           <p className="Member-displayname">@dhyegocalota</p>
           <div className="Member-badges">
-            {is_admin ? (
-              <span className="Member-badge Member-badge--admin">Admin</span>
-            ) : (
-              <span className="Member-badge">User</span>
-            )}
+            <span className="Member-badge" style={{ backgroundColor: `#${color}` }}>
+              {is_admin ? 'Admin' : 'User'}
+            </span>
           </div>
           <p className="Member-status">{status_text}</p>
         </div>

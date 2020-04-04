@@ -1,5 +1,5 @@
 # DevMT Members :notebook_with_decorative_cover:
-Simple React + Redux demo to be used on my presentation about it.
+Simple React App demo to be used on my presentation about it.
 
 ## Deploy
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
@@ -14,8 +14,9 @@ Simple React + Redux demo to be used on my presentation about it.
 We got three different versions on this project that are separated by their branch:
 
 - [master](https://github.com/dhyegocalota/devmt-members/tree/master): Hard coded data flow
-- [manual](https://github.com/dhyegocalota/devmt-members/tree/manual): API data flow with manual work inside of the components
-- [redux](https://github.com/dhyegocalota/devmt-members/tree/redux): API data flow with manual Redux implementation
+- [manual](https://github.com/dhyegocalota/devmt-members/tree/manual): API data flow with manual work inside of the class components
+- [redux](https://github.com/dhyegocalota/devmt-members/tree/redux): API data flow with Redux implementation and class components
+- [hooks](https://github.com/dhyegocalota/devmt-members/tree/hooks): API data flow function components and hooks
 
 ## API
 Since Slack Web API doesn't seem to support CORS, I actually had to create a tiny [back-end wrapper server](https://github.com/dhyegocalota/devmt-members-api) to support it.

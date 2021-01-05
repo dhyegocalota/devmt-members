@@ -6,7 +6,7 @@
   "dependencies": {
     "@mars/heroku-js-runtime-env": "^3.0.2",
     "array-shuffle": "^1.0.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "classnames": "^2.2.6",
     "emoji-mart": "^3.0.0",
     "react": "^16.13.1",
